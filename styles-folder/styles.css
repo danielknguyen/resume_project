@@ -1,0 +1,22 @@
+div {
+	border:1px solid #000000;
+	border-radius:5px;
+	display:inline-block;
+}
+#header {
+	height:350px;
+	width:250px;
+	float:left;
+	margin-top:100px;
+}
+#body {
+	height:350px;
+	width:600px;
+	margin-top:100px;
+}
+#footer {
+	height:50px;
+	width:500px;
+	display:block;
+	margin-left:200px;
+}
