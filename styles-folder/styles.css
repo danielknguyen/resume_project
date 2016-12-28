@@ -9,6 +9,39 @@ div {
 	float:left;
 	margin-top:100px;
 }
+#header h2 {
+	font-family:"Arial";
+	text-align:center;
+	margin-bottom:0;
+}
+#header td {
+	text-align:left;
+	font-size:10pt;
+}
+#header li {
+	list-style:none;
+}
+#header img {
+	height:16px;
+	width:16px;
+}
+div #selfie {
+	height:126px;
+	width:126px;
+	margin-left:65px;
+	margin-top:-75px;
+	display:absolute;
+}
+table {
+	margin:auto;
+}
+#jobtitle {
+	text-align:center;
+	font-size:10pt;
+	font-weight:bold;
+	margin-top:0;
+}
+
 #body {
 	height:350px;
 	width:600px;
