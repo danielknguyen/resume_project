@@ -1,6 +1,6 @@
 div {
-	border:1px solid #000000;
-	border-radius:5px;
+	border:2px solid #000000;
+	border-radius:10px;
 	display:inline-block;
 }
 #header {
@@ -9,7 +9,7 @@ div {
 	float:left;
 	margin-top:100px;
 }
-#header h2 {
+#header h1 {
 	font-family:"Arial";
 	text-align:center;
 	margin-bottom:0;
@@ -25,31 +25,66 @@ div {
 	height:16px;
 	width:16px;
 }
-div #selfie {
+a:link {
+	color:#0444F4;
+	background-color:transparent;
+	text-decoration:none;
+}
+a:visited {
+	color:#6B6B6B;
+	background-color:transparent;
+	text-decoration:none;
+}
+a:hover {
+	color:#002FB2;
+	background-color:transparent;
+	text-decoration:underline;
+}
+div #selfphoto {
 	height:126px;
 	width:126px;
 	margin-left:65px;
 	margin-top:-75px;
+	border-radius:100px;
 	display:absolute;
 }
 table {
 	margin:auto;
 }
-#jobtitle {
+#header h3 {
 	text-align:center;
-	font-size:10pt;
-	font-weight:bold;
 	margin-top:0;
 }
-
 #body {
-	height:350px;
+	height:500px;
 	width:600px;
-	margin-top:100px;
+	margin-top:50px;
+}
+#body li {
+	font-size:14pt;
+	padding-left:30px;
+	padding-right:30px;
+}
+#body h2,h4 {
+	margin-left:30px;
+}
+#body h4 {
+	font-size:14px;
+	margin-left:50px;
+}
+#body p {
+	text-indent:50px;
+	letter-spacing:2px;
+	margin:1px 10px;
+}
+#body h2,h4,p,li {
+	font-family:Arial;
 }
 #footer {
 	height:50px;
-	width:500px;
-	display:block;
-	margin-left:200px;
+	width:150px;
+	display:none;
+	margin-left:45px;
+	margin-top:-50px;
+	border-radius:20px;
 }
